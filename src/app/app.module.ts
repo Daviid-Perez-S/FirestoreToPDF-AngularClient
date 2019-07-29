@@ -4,21 +4,21 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { AngularFireModule } from 'angularfire2'
-import { AngularFirestoreModule } from 'angularfire2/firestore'
-import { FormsModule, ReactiveFormsModule } from '@angular/forms'
+import { AngularFireModule } from 'angularfire2';
+import { AngularFirestoreModule } from 'angularfire2/firestore';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2'
+import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCyqbT2u2-IhAskN1lJe0o3MDzCBIzJ-wI",
-  authDomain: "pdf-cloud-functions.firebaseapp.com",
-  databaseURL: "https://pdf-cloud-functions.firebaseio.com",
-  projectId: "pdf-cloud-functions",
-  storageBucket: "pdf-cloud-functions.appspot.com",
-  messagingSenderId: "869042452920",
-  appId: "1:869042452920:web:ee0cc6a4904056eb"
-}
+  apiKey: "AIzaSyAWTkrbHvz5M0r5IUxMR_MjCqI3tP5DL78",
+  authDomain: "face-detection-project-f25e3.firebaseapp.com",
+  databaseURL: "https://face-detection-project-f25e3.firebaseio.com",
+  projectId: "face-detection-project-f25e3",
+  storageBucket: "face-detection-project-f25e3.appspot.com",
+  messagingSenderId: "741602435541",
+  appId: "1:741602435541:web:999b3f98c3974965"
+};
 
 @NgModule({
   declarations: [
